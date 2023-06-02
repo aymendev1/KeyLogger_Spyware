@@ -4,7 +4,6 @@
       <root url="jar://$PROJECT_DIR$/libs/dsn.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/imap.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/JNativeHook.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libs/mailapi.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/pop3.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/smtp.jar!/" />
     </CLASSES>
