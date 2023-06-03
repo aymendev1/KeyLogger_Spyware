@@ -16,6 +16,7 @@ public class NativeKeyboard implements NativeKeyListener {
     public void nativeKeyPressed(NativeKeyEvent e) {
         // Getting data about the key from the user
         KeyCache.add(new KeyStorage(e.getKeyCode(),true,System.currentTimeMillis()));
+
     }
 
     @Override
@@ -35,4 +36,7 @@ public class NativeKeyboard implements NativeKeyListener {
         System.out.println("Recording KeyStroke Failed !");
     };
 
+    public List<KeyStorage> getKeyCache() {
+        return KeyCache;
+    }
 }

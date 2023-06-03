@@ -11,11 +11,11 @@ public class Sender {
 
     private Sender(){}
     // You can put any email you want on this case , i will use a test mail that i just created  for this
-    private static final String SENDER_EMAIL ="SENDEREMAIL";
-    private static final String SENDER_PASS ="SENDERPASSWORD";
+    private static final String SENDER_EMAIL ="@SenderEmail";
+    private static final String SENDER_PASS ="@SenderPass";
 
     // Receiver Email
-    private static final String RECEIVER_EMAIL ="topayman5@gmail.com";
+    private static final String RECEIVER_EMAIL ="@ReceiverEmail";
 
     // Mail config
     private static Properties mailServerProperties;
